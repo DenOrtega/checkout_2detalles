@@ -17,6 +17,7 @@
     margin-left: 27px !important;
     position: relative !important;
   }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -53,11 +54,6 @@
     width: 100% !important;
   }
 
-  #heading_closeNovios {
-    bottom: 9px !important;
-    height: 75px !important;
-    margin-bottom: 18px !important;
-  }
   #logoArea {
     float: left !important;
     /*margin: 0 auto;*/
@@ -135,14 +131,15 @@
 }
 
 #payment_details .BottonPagar{
-    margin-left: 22px !important;
-    width: 51% !important;
+    margin: auto !important;
+    width: 40% !important;
+    display: block;
 }
 #fieldsAreaSection .BottonPagar{
-    margin-left: 0 !important;
-    position: relative !important;
+    /*margin-left: 0 !important;
+    position: relative !important;*/
     right: 30px !important;
-    width: 66% !important;
+    width: 40% !important;
 }
 .instal-selct-box select {
     width: 101% !important;
@@ -155,8 +152,8 @@
 }
 
 #paymentMedium_5 .ContenedorPrice, #paymentMedium_11 .ContenedorPrice{
- right: 0 !important;
- width: 89% !important;
+ /*right: 0 !important;
+ width: 89% !important;*/
 }
 .fieldsAreaSectionBox {
     width: 100% !important;
@@ -177,7 +174,7 @@
   }
   .Number {
     right: 0 !important;
-    font-family: Tahoma,Verdana !important;
+    font-family:  Open Sans !important;
     font-size: 16px !important;
     color: #f27925 !important;
     top: -8px;
@@ -187,12 +184,12 @@
   		left: 6px !important;
 	}
 	.box_number {
-    	height: 35px !important;
-    	width: 35px !important;
+    	height: 30px !important;
+    	width: 30px !important;
 	}
 	.box_number span {
-    	font-size: 12px !important;
-    	/*top: 10px !important;*/
+    	font-size: 13px !important;
+    	top: 7px;
 	}
   #group_shipdate .textoError{
       top: 54px;
@@ -208,7 +205,6 @@
     margin-right: 5% !important;
   }
   #box_header{
-    bottom: 4px;
     position: relative;
     -webkit-border-top-right-radius: 16px;
     -webkit-border-bottom-right-radius: 16px;
@@ -309,7 +305,6 @@
     position: relative !important;
   }
   .DisableHeader .box_number{
-    bottom: 5px !important;
     position: relative !important;
   }
   .DisableHeader{
@@ -320,8 +315,8 @@
     top: 5px !important;
   }*/
   .Completed .box_number img {
-    height: 35px !important;
-    width: 35px !important;
+    height: 30px !important;
+    width: 30px !important;
   }
   .mobile{
     display: block !important;
@@ -381,6 +376,7 @@
   }
   #giftCard_Target .bottonPay {
     top: 44px !important;
+    text-align: center;
   }
   .tablinksUnselected{
     background-color: #ffffff;
@@ -563,7 +559,7 @@
   }
   #maintitleP{
     font-size: 12px;
-    font-family: Verdana;
+    font-family: Open Sans;
     font-weight: 500;
     left: 27px;
     margin-left: -29px;
@@ -752,12 +748,12 @@
   #GenericModal .DiaAnteriror,#GenericModal .SemanaAnteriror{
     border-right: 1px solid #dddddd;
     color: #909090;
-    font-family: Verdana;
+    font-family: Open Sans;
     font-size: 12px;
     width: 49%;
   }
   #GenericModal .DiaSiguiente, #GenericModal .SemanaSiguiente{
-    font-family: Verdana;
+    font-family: Open Sans;
     font-size: 12px;
     color: #f27925;
     float: right;
@@ -806,6 +802,7 @@
   }
   .inputleft {
     width: 100% !important;
+    padding: 5px 15px;
   }
   .inputleft input{
     width: 95% !important;
@@ -1115,7 +1112,7 @@
 body{
 	margin: 0;
 	padding:0;
-	font-family: "Open Sans",Tahoma,Verdana;
+	font-family: "Open Sans", Open Sans;
 	position: relative;
 	line-height: 1.4;
 }
@@ -1133,7 +1130,7 @@ a{
 	height: 100%;
 }
 #content h1, #content h2{
-  font-family: "Azo Sans",Verdana;
+  font-family: "Open Sans",Open Sans;
  font-size: 18px;
  font-weight: 400;
  color: #818180;
@@ -1189,7 +1186,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 
 /** Login section **/
 #backtocart{
-  	font-family: "Open Sans", Tahoma,Verdana;
+  	font-family: "Open Sans",  Open Sans;
   	font-size: 14px;
   	color: #fc8f44;
   	position: relative;
@@ -1200,16 +1197,19 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
   	object-fit: contain;
 }
 .box_number{
-	width: 42px;
-  	height: 42px;
+	 width: 36px;
+  	height: 36px;
   	background-color: #f27925;
   	text-align: center;
   	display: inline-table;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
 }
 .box_number span{
     position: relative;
-    top: 10px;
-    font-family: Verdana;
+    top: 6px;
+    font-family: Open Sans;
   	font-size: 18px;
   	font-weight: 400;
    	color: #ffffff
@@ -1222,25 +1222,25 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 	display: inline;
 }
 .box_text span{
-	font-family: "Open Sans", Tahoma,Verdana;
+	font-family: "Open Sans",  Open Sans;
   font-size: 14px;
   font-weight: 600;
   color: #4e4e4e;
   position: relative;
   letter-spacing: 0.025em;
   left: 15px;
-  top: 10px;
+  top: 8px;
 }
 .DisableHeader .box_text span{
   top: 5px;
 }
 .Completed .box_text span{
-  top: 8px;
+  top: 10px;
 }
 .bo
 #title{
 	text-align: center;
-	font-family: Tahoma,Verdana;
+	font-family: Open Sans,Open Sans;
   	font-size: 16px;
   	color: #818180;
   	margin-bottom: 26px;
@@ -1257,18 +1257,17 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 #checkout_guest_logon,#checkout_guest_user{
 	text-align: center;
   display: inline-block;
-  font-family: "Azo Sans",Tahoma,Verdana;
+  font-family: "Open Sans",Open Sans;
     font-size: 18px;
     position: relative;
     line-height: 1.4;
     color: #818180;
-    letter-spacing: 0.02em;
 }
 #checkout_guest_user{
   width: 50%;
 }
 #AjaxCheckoutLogon .form_input label{
-  font-family: "Open Sans",Verdana;
+  font-family: "Open Sans",Open Sans;
   font-weight: 400;
   font-size: 14px;
   position: relative;
@@ -1309,7 +1308,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
     color: #f27925;
     cursor: pointer;
     display: inline-block;
-    font-family: "Open Sans", Tahoma,Verdana, sans-serif;
+    font-family: "Open Sans", Open Sans,Open Sans, sans-serif;
     font-size: 12px;
     padding: 10px 16%;
     text-align: center;
@@ -1324,11 +1323,11 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 }
 #AjaxCheckoutLogon .button span,  #checkout_guest_user .button span{
 	color: #ffffff;
-  font-family: "Open Sans",Tahoma,Verdana;
+  font-family: "Open Sans",Open Sans;
   font-size: 14px;
 }
 .form_reset_password{
-  font-family: "Open Sans",Tahoma,Verdana;
+  font-family: "Open Sans",Open Sans;
   font-size: 13px;
   font-weight: 400;
   	color: #f27925;
@@ -1345,31 +1344,31 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
   border-radius: 13px;
 }
 #info .text1{
-	font-family: "Open Sans", Verdana;
+	font-family: "Open Sans", Open Sans;
   	font-size: 13px;
   	text-align: center;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
   	text-transform: uppercase;
 }
 #info .text2{
-	font-family: "Open Sans", Verdana;
+	font-family: "Open Sans", Open Sans;
   	font-size: 13px;
   	text-align: center;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
 }
 
 #info .text3{
-	font-family: "Open Sans", Verdana;
+	font-family: "Open Sans", Open Sans;
   	font-size: 13px;
   	text-align: center;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
 }
 #checkout_guest{
  	height: 320px;
  	/*display: none;*/ /*Descomentar para mostrar */
 }
 #logonErrorMessage .error_message{
-  font-family: "Open Sans", Verdana;
+  font-family: "Open Sans", Open Sans;
   font-size: 12px;
   text-align: center;
   color: #d0021b;
@@ -1388,7 +1387,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 	height: 450px;
 }
 #checkout_billing_header span{
-	 font-family: "Open Sans", Verdana;
+	 font-family: "Open Sans", Open Sans;
   	font-size: 14px;
   	text-align: center;
   	color: #818180;
@@ -1410,14 +1409,14 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 #checkoutBillingAddressForm .form_input label{
 	position: relative;
     /*right: 95px;*/
- 	font-family: "Open Sans", Verdana;
+ 	font-family: "Open Sans", Open Sans;
   	font-size: 14px;
   	color: #8c8c8c;
   	/*float: left;
     left: 21%;*/
 }
 #checkoutBillingAddressForm .form_input input{
-	height: 30px;
+	   height: 35px;
     width: 58%;
     margin-bottom: 21px;
     padding-left: 15px;
@@ -1439,7 +1438,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 display: none;
 }
 .example{
-	font-family: "Open Sans", Verdana;
+	font-family: "Open Sans", Open Sans;
   	font-size: 12px;
   	font-style: italic;
   	text-align: center;
@@ -1453,7 +1452,7 @@ display: none;
 }
 #checkoutBillingAddressForm .form_input_option label{
     color: #8c8c8c;
-    font-family: "Open Sans", Verdana;
+    font-family: "Open Sans", Open Sans;
     font-size: 14px;
     position: relative;
 }
@@ -1472,7 +1471,7 @@ display: none;
     margin-right: 143px;
 }
 #checkout_billing_zipCode, #checkout_billing_guestIdentity{
-    height: 25px;
+    height: 35px;
     margin-bottom: 21px;
     padding-left: 15px;
     width: 58%;
@@ -1496,7 +1495,7 @@ display: none;
 
 }
 #checkout_billing_back #backtocart_link{
-  	font-family: "Open Sans", Tahoma,Verdana;
+  	font-family: "Open Sans",Open Sans;
   	font-size: 14px;
   	color: #f27925;
 }
@@ -1510,7 +1509,7 @@ display: none;
 #checkout_billing_continue a{
 	background-color: #f27925;
     cursor: pointer;
-    font-family: "Open Sans", Tahoma,Verdana;
+    font-family: "Open Sans",Open Sans;
     padding: 10px 57px;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
@@ -1519,7 +1518,7 @@ display: none;
 }
 #checkout_billing_continue span{
 	color: #ffffff;
-  font-family: "Open Sans",Tahoma,Verdana;
+  font-family: "Open Sans",Open Sans;
   font-size: 14px;
   font-weight: 400;
 }
@@ -1532,19 +1531,16 @@ display: none;
  	height: 41px;
  	background-color: #f9f9f9;
   border: solid 1px #d6d6d6;
-  -webkit-border-top-right-radius: 16px;
-  -webkit-border-bottom-right-radius: 16px;
-  -moz-border-radius-topright: 16px;
-  -moz-border-radius-bottomright: 16px;
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
+  -webkit-border-radius: 16px;
+-moz-border-radius: 16px;
+border-radius: 16px;
 }
 .Completed.DisableHeader{
   background-color: #f6f6f6;
 border: solid 1px #d6d6d6;
 }
 .DisableHeader p, #box_header p{
-	margin: 0px;
+	margin: 3px;
 }
 .DisableHeader .box_number {
   	background-color: #8c8c8c;
@@ -1563,13 +1559,13 @@ border: solid 1px #d6d6d6;
     bottom: 31px;
     position: relative;
     /*text-align: center;*/
-    font-family: Verdana;
+    font-family: Open Sans;
     font-size: 12px;
     color: #d0021b;
 }
 #ShipAddressForm .error, #ModalFactura .error span, #giftCard_Target .error span,#error_msg_promo,#promo_content .error span{
     position: relative;
-    font-family: Verdana;
+    font-family: Open Sans;
     font-size: 12px;
     color: #d0021b !important;
     height: 10px;
@@ -1630,11 +1626,11 @@ border: solid 1px #d6d6d6;
 	margin-top: 15px;
 	background-color: #ffffff;
   -webkit-border-radius: 16px;
--moz-border-radius: 16px;
-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
 }
 .tileStep2{
-	font-family: "Open Sans", Verdana;
+	font-family: "Open Sans", Open Sans;
   	font-size: 14px;
   	text-align: center;
   	color: #818180;
@@ -1665,7 +1661,7 @@ div.tab button {
 .TitleTab{
   	bottom: 7px;
     color: #8c8c8c;
-    font-family: "Azo Sans",Tahoma,Verdana;
+    font-family: "Open Sans",Open Sans;
     font-size: 14px;
     position: relative;
     text-transform: uppercase;
@@ -1741,6 +1737,12 @@ div.tab button.active {
     border-bottom:white;
     position: relative;
     top: 2px;
+    -webkit-border-top-left-radius: 16px;
+    -webkit-border-top-right-radius: 16px;
+    -moz-border-radius-topleft: 16px;
+    -moz-border-radius-topright: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 /* Fade in tabs */
 @-webkit-keyframes fadeEffect {
@@ -1755,7 +1757,7 @@ div.tab button.active {
 
 /*Start Despacho style*/
 #shipAddress_desc{
-  font-family: "Azo Sans", Verdana;
+  font-family: "Open Sans", Open Sans;
   font-size: 18px;
   padding: 1.5em;
   text-align: center;
@@ -1776,7 +1778,7 @@ div.tab button.active {
   width: 48%;
 }
 .DireccionLables{
-  font-family: "Open Sans", Verdana;
+  font-family: "Open Sans", Open Sans;
   font-size: 14px;
   color: #8c8c8c;
 }
@@ -1790,6 +1792,12 @@ div.tab button.active {
   border-radius: 16px;
   padding-left: 15px;
 }
+.DireccionInput:focus, .instal-selct-box select:focus, #checkout_billing_zipCode:focus, #checkout_billing_guestIdentity:focus, #ShipAddressForm #checkout_shipping_address3:focus, #checkoutBillingAddressForm .form_input input:focus{
+  box-shadow: 0px 0px 2px rgba(255, 159, 54, 0.74);
+  border:1px solid #ff9f36;
+  outline: none !important;
+}
+
 .BigInput{
   width: 97%;
 }
@@ -1821,7 +1829,7 @@ div.tab button.active {
     border: 1px solid #f27925;
     color: #f27925;
     cursor: pointer;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     padding: 10px 68px;
     text-align: center;
@@ -1833,7 +1841,7 @@ div.tab button.active {
 }
 #checkout_shipping_links .link a{
     color: #f27925;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 14px;
     position: relative;
 }
@@ -1844,10 +1852,10 @@ div.tab button.active {
 	/*display: none; Delete for show form address*/
 }
 .TiteDireccionDespacho{
-    font-family: "Azo Sans",Verdana;
+    font-family: "Open Sans",Open Sans;
     font-weight: 600;
     text-transform: uppercase;
-    color: #4a4a4a;
+    color: #4e4e4e;
   	font-size: 16px;
   	text-align: left;
   	margin-bottom: 16px;
@@ -1861,7 +1869,7 @@ div.tab button.active {
   	width: 100%;
 }
 .AddressCreated span{
-	  font-family: Verdana;
+	  font-family: Open Sans;
   	font-size: 12px;
   	font-weight: 600;
   	color: #8c8c8c;
@@ -1877,7 +1885,7 @@ div.tab button.active {
 }
 .AddressCreated .right{
 	width: 18%;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     color: #f27925;
     font-size: 12px;
 
@@ -1901,7 +1909,7 @@ div.tab button.active {
 .AddNewAddress span{
 	bottom: 2px;
     color: #f27925;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     position: relative;
 }
@@ -1939,7 +1947,7 @@ div.tab button.active {
    margin-right: 3px;
 }
 .TitleModal{
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 21px;
   color: #818180;
 }
@@ -1960,11 +1968,11 @@ div.tab button.active {
 
 /*Start Retiro en tienda Style*/
 .TitleRatiro{
-  	font-family: Verdana;
+  	font-family: Open Sans;
   	font-size: 16px;
   	font-weight: 600;
   	text-align: center;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
   	margin-left: 64px;
 }
 .AddressCreated .right span {
@@ -1981,7 +1989,7 @@ div.tab button.active {
 	margin-top: 29px;
 }
 .LeftText{
-	font-family: Verdana;
+	font-family: Open Sans;
  	font-size: 14px;
   	color: #8c8c8c;
 }
@@ -1994,7 +2002,7 @@ div.tab button.active {
     border: 1px solid #f27925;
     color: #f27925;
     cursor: pointer;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     padding: 10px 16%;
     text-align: center;
@@ -2013,17 +2021,17 @@ div.tab button.active {
 .AlertRetiro span{
 	position: relative;
   top: 12px;
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 14px;
   font-weight: 500;
   text-align: center;
-  color: #4a4a4a;
+  color: #4e4e4e;
 }
 .TitleEntrega{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 16px;
   	font-weight: 600;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
   	margin-top:	21px;
   	margin-bottom: 14px;
 }
@@ -2044,14 +2052,14 @@ div.tab button.active {
 	float: right;
 }
 .ret_address_details_box{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 12px;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
   	margin-top: 7px;
   	margin-bottom: 14px;
 }
 #ret_change_store{
-  	font-family: Tahoma,Verdana;
+  	font-family:  Open Sans;
   	font-size: 12px;
   	color: #f27925;
   	cursor: pointer;
@@ -2074,9 +2082,9 @@ div.tab button.active {
     padding: 6px 0 8px 23px;
 }
 .BoxCondition span{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 12px;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
 }
 #proxy_input{
 	margin-left: 6%;
@@ -2116,8 +2124,8 @@ div.tab button.active {
   width: 100%;
 }
 .TabTitleNovios{
-    color: #4a4a4a;
-    font-family: Verdana;
+    color: #4e4e4e;
+    font-family: Open Sans;
     font-size: 16px;
     font-weight: 600;
     margin-left: 30px;
@@ -2141,7 +2149,7 @@ div.tab button.active {
 }
 .LabelNovios{
    	color: #8c8c8c;
-    font-family: Verdana;
+    font-family: Open Sans;
     font-size: 14px;
     position: relative;
     bottom: 7px;
@@ -2150,7 +2158,7 @@ div.tab button.active {
 .ExampleNovios{
     color: #8c8c8c;
     display: table-row-group;
-    font-family: Verdana;
+    font-family: Open Sans;
     font-size: 12px;
     font-style: italic;
     position: relative;
@@ -2165,7 +2173,7 @@ div.tab button.active {
     border: 1px solid #f27925;
     color: #f27925;
     cursor: pointer;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     margin-bottom: 18px;
     padding: 10px 8%;
@@ -2184,15 +2192,15 @@ div.tab button.active {
     margin-right: 5%;
 }
 .result_label{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 14px;
   	line-height: 1.2;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
   	text-transform: uppercase;
   	margin-left: -18px;
 }
 .TitleTableNovios{
-	font-family: Tahoma,Verdana;
+	font-family:  Open Sans;
   	font-size: 12px;
   	color: #818180;
   	background-color: #edeced;
@@ -2213,7 +2221,7 @@ div.tab button.active {
     border: 1px solid #f27925;
     color: #f27925;
     cursor: pointer;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     margin-left: 21px;
     padding: 5px 52px;
@@ -2244,10 +2252,10 @@ div.tab button.active {
     width: 40px;
 }
 .TextoNovios{
-	font-family: Tahoma,Verdana;
+	font-family:  Open Sans;
   font-size: 12px;
   line-height: 1.4;
-  color: #4a4a4a;
+  color: #4e4e4e;
   width: 85%;
   text-transform: uppercase;
 }
@@ -2257,10 +2265,10 @@ div[id^="novios_names_"]{
   vertical-align: middle;
 }
 .TextoNoviosCode{
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 12px;
   line-height: 1.4;
-  color: #4a4a4a;
+  color: #4e4e4e;
   position: relative;
   bottom: 7px;
 }
@@ -2283,11 +2291,11 @@ div[id^="novios_names_"]{
 }
 
 #novios_address_heading .TitleDelivery{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 16px;
   	font-weight: 600;
   	text-align: center;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
 }
 #checkout_novios_address_detail{
 	margin-top:40px;
@@ -2301,22 +2309,22 @@ div[id^="novios_names_"]{
 	display: inline-block;
 }
 .NameNovio{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 12px;
   	font-weight: 600;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
   	margin-left: 13px;
 }
 .NumberNovio{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 12px;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
   	margin-left: 13px;
 }
 .EditNovios{
     color: #f27925;
     float: right;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     position: relative;
     right: 15px;
@@ -2325,7 +2333,7 @@ div[id^="novios_names_"]{
 /*End Novios Style*/
 
 .shipping_text{
-    font-family: "Open Sans",Verdana;
+    font-family: "Open Sans",Open Sans;
     font-size: 12px;
     color: #818180;
     margin-right: 10px;
@@ -2348,9 +2356,9 @@ div[id^="novios_names_"]{
     margin-right: 21px;
 }
 .OrderItmTitle{
-  font-family: "Azo Sans", Verdana;
+  font-family: "Open Sans", Open Sans;
   text-transform: uppercase;
-  color: #4a4a4a;
+  color: #4e4e4e;
   font-weight: 600;
   font-size: 14px;
   margin-left: 10px;
@@ -2362,8 +2370,8 @@ div[id^="novios_names_"]{
   	margin-bottom: 15px;
 }
 .DateP{
-	color: #4a4a4a;
-    font-family: "Open Sans", Verdana;
+	color: #4e4e4e;
+    font-family: "Open Sans", Open Sans;
     font-size: 12px;
     margin-left: 1.4%;
     position: relative;
@@ -2387,9 +2395,9 @@ div[id^="novios_names_"]{
 	display: inline-block;
 }
 .group_shipcost{
-    color: #4a4a4a;
+    color: #4e4e4e;
     float: right;
-    font-family: "Azo Sans",Verdana;
+    font-family: "Open Sans",Open Sans;
     font-size: 14px;
     position: relative;
     margin-right: 20px;
@@ -2407,7 +2415,7 @@ div[id^="novios_names_"]{
     position: relative;
 }
 .EditCalendar a{
-	font-family: Tahoma,Verdana;
+	font-family:  Open Sans;
   	font-size: 12px;
   	color: #f27925;
   	cursor: pointer;
@@ -2433,7 +2441,7 @@ div[id^="novios_names_"]{
 .divTableHead {
 	display: table-cell;
 	padding: 9px 10px;
-	font-family: "Open Sans", Tahoma,Verdana;
+	font-family: "Open Sans",  Open Sans;
   	font-size: 12px;
     font-weight: 600;
   	color: #818180;
@@ -2462,8 +2470,8 @@ div[id^="novios_names_"]{
     margin-top: 21px;
 }
 .DivSubtotal{
-    color: #4a4a4a;
-    font-family: "Azo Sans", Verdana;
+    color: #4e4e4e;
+    font-family: "Open Sans", Open Sans;
     font-size: 14px;
     margin-right: 7px;
     padding-bottom: 10px;
@@ -2478,7 +2486,7 @@ div[id^="novios_names_"]{
 #checkout_shipping_continue .button, #checkout_ship_address_continue .button{
 	 background-color: #f27925;
     cursor: pointer;
-    font-family: "Open Sans", Tahoma,Verdana;
+    font-family: "Open Sans",  Open Sans;
     font-size: 14px;
     padding: 10px 58px;
     text-align: center;
@@ -2525,8 +2533,8 @@ div[id^="novios_names_"]{
 }
 #checkout_orderitem_groups .product_name{
   font-size: 12px;
-  font-family: "Open Sans",Tahoma,Verdana;
-  color: #4a4a4a;
+  font-family: "Open Sans", Open Sans;
+  color: #4e4e4e;
   font-weight: 600;
   /*position: relative;*/
 }
@@ -2535,13 +2543,13 @@ div[id^="novios_names_"]{
   height: 80px;
 }
 .product_warranty{
-	font-family: Tahoma,Verdana;
+	font-family:  Open Sans;
   	font-size: 12px;
   	color: #818180;
   	margin-top: 9%;
 }
 .product_warranty a{
-  	font-family: "Open Sans", Tahoma,Verdana;
+  	font-family: "Open Sans",  Open Sans;
   	font-size: 12px;
   	color: #f27925;
   	cursor: pointer;
@@ -2552,10 +2560,10 @@ div[id^="novios_names_"]{
 }
 .product_prices,.prodcuct_qty,.product_total{
   	font-size: 14px;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
 }
 .sku{
-	font-family: "Open Sans",Tahoma,Verdana;
+	font-family: "Open Sans", Open Sans;
   	font-size: 10px;
   	color: #8c8c8c;
 }
@@ -2600,7 +2608,7 @@ div[id^="novios_names_"]{
    cursor: pointer;
 }
 .NextCalendar, .dateSelectionFwdBtn{
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 12px;
   /*color: #f27925;*/
   text-decoration: underline;
@@ -2608,7 +2616,7 @@ div[id^="novios_names_"]{
   position: relative;
 }
 .AfterCalendar, .dateSelectionBackBtn {
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 12px;
  /* color: #f27925;*/
   text-decoration: underline;
@@ -2640,7 +2648,7 @@ div[id^="novios_names_"]{
    padding: 24px 0 0 28px;
 }
 .TitleModal{
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 21px;
   color: #818180;
 }
@@ -2664,23 +2672,23 @@ div[id^="novios_names_"]{
 .TodoHorario{
   border: 1px solid #dddddd;
   height: 61px;
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 14px;
   font-weight: bold;
-  color: #4a4a4a;
+  color: #4e4e4e;
 }
 .TextTodoHorario, .jornadaDesc{
   position: relative;
   top: 13px;
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 14px;
   text-align: center;
-  color: #4a4a4a;
+  color: #4e4e4e;
 }
 #ret_contingencyDate, #ret_firstAvailableDate{
   bottom: 78px;
   position: relative;
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 12px;
 }
 .week{
@@ -2714,9 +2722,9 @@ div[id^="novios_names_"]{
 .TextContenedorDia{
   position: relative;
   top: 8px;
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 14px;
-  color: #4a4a4a;
+  color: #4e4e4e;
 }
 .WeekTitle{
   width: 30%;
@@ -2741,7 +2749,7 @@ div[id^="novios_names_"]{
   color: #f27925;
   cursor: pointer;
   display: inline-block;
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 12px;
   padding: 10px 10%;
   text-align: center;
@@ -2804,7 +2812,7 @@ div[id^="novios_names_"]{
   margin-top: 18px;
 }
 .FacturaNote{
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 12px;
   font-style: italic;
   text-align: center;
@@ -2824,7 +2832,7 @@ div[id^="novios_names_"]{
     font-size: 14px;
     font-weight: 600;
     text-align: center;
-    color: #4a4a4a;
+    color: #4e4e4e;
     margin-bottom: 0;
     left: 25px;
     position: absolute;
@@ -2904,7 +2912,7 @@ div[id^="novios_names_"]{
 /*Calendar Widget Error Modal*/
 #AlertWidgetContent.modal-contenido{
 	height: auto;
-    font-family: Verdana;
+    font-family: Open Sans;
     width: 35%;
     position: relative;
     top: 25px;
@@ -2937,8 +2945,8 @@ div[id^="novios_names_"]{
     height: 86px;
 }
 .box_number img{
-	height: 42px;
-	width: 42px;
+	height: 36px;
+	width: 36px;
 }
 .Step3 .box_number span{
     bottom: 16px;
@@ -2953,11 +2961,8 @@ div[id^="novios_names_"]{
 	bottom: 19px;
 	position: relative;
   -webkit-border-radius: 16px;
-  -webkit-border-top-left-radius: 0;
   -moz-border-radius: 16px;
-  -moz-border-radius-topleft: 0;
   border-radius: 16px;
-  border-top-left-radius: 0;
 }
 #checkout_billingdetails.open{
 	background-color: white;
@@ -2976,10 +2981,10 @@ div[id^="novios_names_"]{
 }
 
 #promo_gc_details h2{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 16px;
   	font-weight: 600;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
   	margin-left: 9%;
     text-align: left;
 }
@@ -2991,7 +2996,7 @@ div[id^="novios_names_"]{
     right: 5%;
 }
 #factura span{
-	font-family: "Open Sans", Tahoma,Verdana;
+	font-family: "Open Sans",  Open Sans;
   	font-size: 14px;
     /*text-transform: uppercase;*/
     font-weight: 400;
@@ -3008,7 +3013,7 @@ div[id^="novios_names_"]{
 #factura a{
   color: #f27925;
   cursor: pointer;
-  font-family: "Azo Sans",Tahoma,Verdana;
+  font-family: "Open Sans", Open Sans;
   font-size: 12px;
 }
 #giftcard_details{
@@ -3042,7 +3047,7 @@ div[id^="novios_names_"]{
 
 /*acordeon*/
 .accordion-title {
-	font-family: "Open Sans", Verdana;
+	font-family: "Open Sans", Open Sans;
   font-size: 14px;
   font-weight: 400;
   color: #818180;
@@ -3053,8 +3058,20 @@ div[id^="novios_names_"]{
   margin-left: 62px;
   cursor: pointer;
   -webkit-border-radius: 16px;
--moz-border-radius: 16px;
-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+.accordion-title.active {
+  border-color:  #f27925 !important;
+ -webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-border-top-left-radius: 16px;
+  -webkit-border-top-right-radius: 16px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-topright: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 .accordion-content {
     border: solid 1px #f27925;
@@ -3065,6 +3082,12 @@ border-radius: 16px;
   	background-color: #ffffff;
   	/*height: 97px;*/
   	height: auto;
+    -webkit-border-bottom-right-radius: 16px;
+    -webkit-border-bottom-left-radius: 16px;
+    -moz-border-radius-bottomright: 16px;
+    -moz-border-radius-bottomleft: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
 }
 .accordion-title.active span.plus, .accordion-title span.minus{
 	display: none;
@@ -3074,6 +3097,12 @@ border-radius: 16px;
 }
 .RemoveLine{
 	 border-bottom: unset;
+   -webkit-border-top-left-radius: 16px;
+   -webkit-border-top-right-radius: 16px;
+   -moz-border-radius-topleft: 16px;
+   -moz-border-radius-topright: 16px;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
 }
 .Margen{
 	margin-bottom: 45px;
@@ -3091,7 +3120,9 @@ border-radius: 16px;
   /*right: 5%;*/
   text-align: right;
   margin-bottom: 14px;
-  width: 95%;
+  /*width: 95%;*/
+  padding: 0 30px;
+  color: #818180;
 }
 .ContenedorPrice p{
   margin-top: 0px;
@@ -3102,7 +3133,7 @@ border-radius: 16px;
   margin-top: 10px;
 }
 #desc span{
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 12px;
   color: #8c8c8c;
 }
@@ -3115,7 +3146,7 @@ border-radius: 16px;
   display: inline-block;
 }
 #appliedPromotionCode .Code {
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     color: #818180;
     left: 10px;
@@ -3142,12 +3173,8 @@ border-radius: 16px;
     top: 10px;
 }
 
-hr {
-  background-color: black;
-  height: 1px;
-}
 .TotalPrice{
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 14px;
   font-weight: bold;
   color: #f27925;
@@ -3158,11 +3185,14 @@ hr {
   color: #f27925;
   cursor: pointer;
   display: inline-block;
-  font-family: Tahoma,Verdana;
-  font-size: 12px;
+  font-family:  Open Sans;
+  font-size: 14px;
   padding: 10px 58px;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-border-radius: 16px; -moz-border-radius: 16px;border-radius: 16px;
 }
 .BottonPagar span{
   color: #ffffff;
@@ -3226,28 +3256,35 @@ hr {
 	margin-left: 25px;
 }
 #GiftcardAccordion{
-  	font-family: Verdana;
+  	font-family: Open Sans;
   	font-size: 12px;
   	font-style: italic;
   	color: #8c8c8c;
     margin-left: 25px;
 }
 .bottonPay{
-	background-color: #ffffff;
+    background-color: #f27925;
     border: 1px solid #f27925;
-    color: #f27925;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     position: relative;
     top: 22px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+}
+.bottonPay:hover{
+  opacity: 0.5;
 }
 .titleFrom{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 14px;
   	text-align: center;
   	color: #8c8c8c;
@@ -3256,37 +3293,53 @@ hr {
    	height: 23px;
     width: 186px;
     margin-right: 10px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid #999999;
 }
 #password{
 	height: 23px;
 	margin-right: 10px;
+  -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid #999999;
 }
 #TRUT{
 	height: 23px;
     width: 172px;
     margin-right: 10px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid #999999;
 }
 .saldoGift{
 	position: relative;
     top: 8px;
 }
 #saldoGiftResponsive{
-    font-family: Verdana;
+    font-family: Open Sans;
   	font-size: 14px;
   	font-weight: 600;
   	color: #f27925;
 }
 .TitleSaldoGift{
-	font-family: Verdana;
+	font-family: Open Sans;
   	font-size: 14px;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
 }
 #checkout_promo_promoCode input{
-	background-color: #ffffff;
+	   background-color: #ffffff;
   	border: solid 1px #d6d6d6;
   	height: 24px;
     margin-left: 11%;
     width: 189px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+
 }
 
 div[id^="payment_form_20"]{
@@ -3298,17 +3351,21 @@ div[id^="payment_form_20"]{
 	text-align: left;
 }
 .promotion_button_apply{
-	background-color: #ffffff;
+	background-color: #f27925;
     border: 1px solid #f27925;
-    color: #f27925;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     padding: 5px 52px;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     margin-left:21px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
 }
 #promotion_details{
 	height: auto;
@@ -3325,7 +3382,7 @@ div[id^="payment_form_20"]{
 }
 .TitleNovios{
     color: #8c8c8c;
-    font-family: Verdana;
+    font-family: Open Sans;
     font-size: 14px;
     margin-bottom: 2px;
     margin-top: 0;
@@ -3340,7 +3397,7 @@ div[id^="payment_form_20"]{
     color: #f27925;
     cursor: pointer;
     display: inline-block;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 12px;
     padding: 5px 52px;
     text-align: center;
@@ -3355,13 +3412,13 @@ div[id^="payment_form_20"]{
 	left: 0%;
 }
 .notaNovios{
-	font-family: Tahoma,Verdana;
+	font-family:  Open Sans;
   	font-size: 12px;
   	text-align: center;
-  	color: #4a4a4a;
+  	color: #4e4e4e;
 }
 .LinkNovios{
-	font-family: Tahoma,Verdana;
+	font-family:  Open Sans;
   	font-size: 12px;
   	color: #f27925;
 }
@@ -3391,7 +3448,7 @@ div[id^="payment_form_20"]{
     width: 13px;
 }
 .TextEdit{
- 	font-family: Tahoma,Verdana;
+ 	font-family:  Open Sans;
   	font-size: 12px;
   	color: #f27925;
   	cursor: pointer;
@@ -3488,7 +3545,7 @@ a {
 #ClientLoginContainer table {margin: 0 auto; margin-top: 10px; margin-bottom: 20px; text-align: center; border: 2px solid #EBF4FB; padding: 10px 20px;}
 #ClientLoginContainer table#ClientLoginSubmit {border: 0 !important; margin: 0; padding: 0;}
 
-#ClientLoginBackground { position: fixed; z-index: 6; top: 0; left: 0; float: left; background-color:#000; opacity: .7; zoom:1; width: 100%; height:100%; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: alpha(opacity=70);}
+#ClientLoginBackground { position: fixed; z-index: 6; top: 0; left: 0; float: left; background-color:#818180; opacity: .7; zoom:1; width: 100%; height:100%; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: alpha(opacity=70);}
 
 .callCenterTable
      {width: 65%; height: 0px; display: block;
@@ -3507,7 +3564,7 @@ a {
 
 .CallCenter .h_link {
 		padding: 0 10px;
-		font-family: Tahoma,Verdana, Geneva, sans-serif;
+		font-family:  Open Sans, Geneva, sans-serif;
     	color: #f27925;
     	text-decoration: none;
     	}
@@ -3516,7 +3573,7 @@ a {
 
 .CallCenter .h_link_title { /*width: 140px; padding-right: 5px; */
 		padding: 0 10px;
-		font-family: Tahoma, Geneva, sans-serif; /* 26 april -user header alongwith CSR header*/
+		font-family:   Geneva, sans-serif; /* 26 april -user header alongwith CSR header*/
 	}
 .CallCenter .h_link_name {text-transform: capitalize;}
 .CallCenter .csr_spacer {width: 150px !important; float: left; text-align: right;}
@@ -3525,7 +3582,7 @@ a {
     cursor: pointer;
     margin: 1px;
     margin-right: 5px;
-    font-family: Tahoma,Verdana, Geneva, sans-serif;
+    font-family:  Open Sans, Geneva, sans-serif;
     font-size: 10px;
     font-weight: bold;
     padding-bottom: 2px;
@@ -3569,7 +3626,7 @@ a {
 div[id^="ModalWarranty_"] .WarrantyNewModalMessage{
 
   height: 44px;
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 14px;
   line-height: 1.57;
   color: #8c8c8c;
@@ -3614,7 +3671,7 @@ width: 54%;
 }
 
 #WarrantyNewModalHeader.TitleModal {
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 24px;
   letter-spacing: 0.9px;
   text-align: center;
@@ -3671,8 +3728,8 @@ div[id^="ModalWarranty_"] .divTableCellHeading{
 
   background-color: #EEE;
   text-align: center;
-  color: #4a4a4a;
-  font-family: Tahoma,Verdana;
+  color: #4e4e4e;
+  font-family:  Open Sans;
   font-size: 14px;
   display: table-cell;
 }
@@ -3706,7 +3763,7 @@ div[id^="ModalWarranty_"] .radio {
 
 div[id^="ModalWarranty_"] .warrantyTypeDescription {
 
-  font-family: Tahoma,Verdana;
+  font-family:  Open Sans;
   font-size: 12px;
   line-height: 1.5;
   color: #8c8c8c;
@@ -3737,7 +3794,7 @@ div[id^="ModalWarranty_"] .boton_Warranty {
     border-radius: 0;
     color: #fff;
     cursor: pointer;
-    font-family: Tahoma,Verdana;
+    font-family:  Open Sans;
     font-size: 14px;
     font-weight: bold;
     height: 31px;
@@ -3755,7 +3812,7 @@ div[id^="ModalWarranty_"] .boton_Warranty span{
 div[id^="ModalWarranty_"] .mas_protection {
 text-align: center;
 margin: 10px 150px 10px 160px;
-font-family: Tahoma,Verdana;
+font-family:  Open Sans;
   font-size: 12px;
   color: #f27925;
   text-decoration: underline;
@@ -3822,7 +3879,7 @@ font-family: Tahoma,Verdana;
     display: block;
 }
 #ModalFactura #HeaderModal span, #ModalFactura .TextBody span{
-	font-family: Tahoma,Verdana;
+	font-family:  Open Sans;
     font-size: 21px;
     color: #818180;
     text-decoration: none;
@@ -3844,7 +3901,7 @@ font-family: Tahoma,Verdana;
 .TarjetadeCredito img{
     bottom: 7px;
     height: 33px;
-    width: 158px;
+    width: 135px;
 }
 
 /* End Step 3*/
@@ -3855,7 +3912,7 @@ font-family: Tahoma,Verdana;
 
 /* CHECKOUT EOM EXCEPTION MODAL CHANGES*/
 
-#mhtn_background { position: fixed; z-index: 6; top: 0; left: 0; float: left; background-color:#000; opacity: .7; zoom:1; width: 100%; height:100%; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: alpha(opacity=70);}
+#mhtn_background { position: fixed; z-index: 6; top: 0; left: 0; float: left; background-color:#818180; opacity: .7; zoom:1; width: 100%; height:100%; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter: alpha(opacity=70);}
 
 
 #mhtn_widget .overlay{
@@ -3872,7 +3929,7 @@ font-family: Tahoma,Verdana;
     width: 100%;
     padding: 3% 0%;
     margin: 0;
-    color: #000;
+    color: #818180;
     font-weight: bold;
   }
 
@@ -3918,7 +3975,7 @@ font-family: Tahoma,Verdana;
     text-align: center;
 }
 #mhtn_widget .lightboxContent,#modal_error .lightboxContent {
-    color: #000;
+    color: #818180;
     margin: 0 auto;
     /*MHTN DEFECT : 296*/
     width: 95%;
@@ -3964,7 +4021,7 @@ font-family: Tahoma,Verdana;
     width: 33%;
 }
 #mhtn_widget .item .status,#modal_error .item .status {
-    color: #000;
+    color: #818180;
     font-weight: bold;
 }
 #mhtn_widget .finalText,#modal_error .finalText {
@@ -4109,7 +4166,7 @@ font-family: Tahoma,Verdana;
     margin-left: 30px;
 }
 #mhtn_widget .qty .error {
-    color: #ff0000;
+    color: #ff8181800;
     display: inline-block;
     width: 290px;
 }
@@ -4350,7 +4407,7 @@ font-family: Tahoma,Verdana;
    top: 34px;
 }
 .GiftCardSaldo{
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 14px;
   font-weight: 600;
   color: #f27925;
@@ -4386,18 +4443,13 @@ font-family: Tahoma,Verdana;
 }
 
 
- .cbspay-dtls input:focus{
-	outline: none;
-	box-shadow: 0px 0px 5px #61C5FA;
-	border:1px solid #5AB0DB;
-}
 .appliedPromotionCodeBox{
   margin-left: 16px;
 }
 .fieldsAreaSectionBox
 {
   width: 30%;
-  border: 0px solid #000;
+  border: 0px solid #818180;
   margin:0 auto;
 }
 
@@ -4432,7 +4484,8 @@ textarea{
 }*/
 .cbspayment{   }
 .flt_lft{ float: left; }
-.cbspay-dtls input{ width: 95%; padding: 4px 5px;width: 97%;}
+.cbspay-dtls input{ width: 95%; padding: 4px 5px;width: 97%; -webkit-border-radius: 16px; -moz-border-radius: 16px;border-radius: 16px;border: 1px solid #ccc;}
+.cbspay-dtls input:focus {border-color: #f27925;box-shadow: 0 0 2px #f27925;outline: none !important;}
 .cbspay-dtls label{ color:#8c8c8c;bottom: 6px;position: relative; font-size: 12px;}
 
 .card-numbr{ width:45%; }
@@ -4443,11 +4496,9 @@ textarea{
   /*padding-bottom: 10px;*/
   height: 64px;
 }
-.cbspay-dtls{
-  margin-bottom: 20px;
-}
+
 #fieldsAreaSection .error{
-  font-family: Verdana;
+  font-family: Open Sans;
   font-size: 12px;
   text-align: left;
   color: #d0021b;
@@ -4456,15 +4507,13 @@ textarea{
 #fieldsAreaSection{
   margin-top: 16px;
 }
-.card-numbr label{   margin-top: 17px;    display: inline-block;    }
-.sample-msg{  	font-size: 9px;    font-style: italic;color: #8c8c8c;   }
+.card-numbr label{ margin-top: 17px;  display: inline-block;  }
+.sample-msg{ font-size: 9px; font-style: italic;color: #8c8c8c; }
 .instal-selct-box { padding-top: 15px; clear:both; }
 .instal-selct-box label{ margin-bottom : 9px; display:inline-block;color: #8c8c8c;font-size:12px;}
-.instal-selct-box select{ padding: 5px 5px; height: auto ; width: 99%; color: #8c8c8c;}
+.instal-selct-box select{ padding: 5px 5px; height: auto ; width: 99%; color: #8c8c8c;-webkit-border-radius: 16px;-moz-border-radius: 16px;border-radius: 16px;}
 .align-rght{ text-align : right; }
-.cbssub-total, .cbsdespcho-total, .cbsgdc-total, .cbsdiscnt-total, .cbsgrnd-total{    margin: 6px 5px;color: #000;
-    font-size: 14px;
-    letter-spacing: 0.5px;  }
+.cbssub-total, .cbsdespcho-total, .cbsgdc-total, .cbsdiscnt-total, .cbsgrnd-total{ margin: 6px 5px;color: #818180;font-size: 14px;letter-spacing: 0.5px;  }
 .price-detls{ padding-top:30px }
     .fields-area-section{ width: 330px; margin : 0 auto; }
  .cbsgrnd-total{ margin-bottom: 10px; }
@@ -4666,7 +4715,7 @@ textarea{
 /* For the dialog containing the progress bar element */
 #ext_progress_bar_dialog { position: absolute; z-index: 9999; display:none }
 /* Progress bar dialog background */
-.dijitDialogUnderlay { background-color: #000; opacity: .7; }
+.dijitDialogUnderlay { background-color: #818180; opacity: .7; }
 #ext_loading_popup { width:59px }
 #ext_loading_popup .top_left { background-image: url('../images/colors/color1/popup_topleft.png'); background-repeat:no-repeat; background-position:top; height:7px; width:8px; float:left }
 #ext_loading_popup .top_right { background-image: url('../images/colors/color1/popup_topright.png'); background-repeat:no-repeat; background-position:top right; height:7px; width:51px; float:left }
